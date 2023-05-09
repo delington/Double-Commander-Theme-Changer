@@ -6,6 +6,7 @@ class GUI:
     def __init__(self, master, *inputs):
         self.master = master
         master.title("My App")
+        self.selected_option = ""   
 
         # Create labels and images for each option
         self.option_labels = []
@@ -15,10 +16,10 @@ class GUI:
         for i, input_path in enumerate(inputs):
             label = tk.Label(master, text=f"Option {i+1}")
             image = tk.PhotoImage(file=input_path).subsample(2)
-            button = tk.Button(master, image=image, command=lambda index=i: self.select_option(index))
+            button = tk.Button(master, command=lambda index=i: self.select_option(index))
 
             self.option_labels.append(label)
-            self.option_images.append(image)
+            #self.option_images.append(image)
             self.option_buttons.append(button)
 
         # Create apply and exit buttons
@@ -36,9 +37,14 @@ class GUI:
 
     def select_option(self, index):
         print(f"Option {index+1} selected")
+        self.selected_option = index+1
+        for button in self.option_buttons:
+            button.config(bg="SystemButtonFace")
+        
+        self.option_buttons[index].config(bg="blue")
 
     def apply_options(self):
-        print("Applying options")
+        print(f"Applying option {self.selected_option}")
         process.apply_changes()
 
 root = tk.Tk()

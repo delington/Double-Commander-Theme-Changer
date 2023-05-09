@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 
-INPUT_PROPERTY_FILE_PATH = 'properties/themes/dark_theme.xml'
+INPUT_PROPERTY_FILE_PATH = 'properties/colors/dark_theme.xml'
 DOUBLE_COMMANDER_SETTING_FILE_PATH = 'doublecmd.xml'
 STRING_COLORS = 'Colors'
 STRING_LAYOUT = 'Layout'
