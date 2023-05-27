@@ -29,22 +29,41 @@ def main():
         for i, theme in enumerate(theme_list, start=1):
             print(f"{i}. {theme['name']}")
 
-        theme_input = int(input("Select a theme option (1-4): "))
+        theme_size = len(theme_list)
+        print(f"Select a theme option (1-{theme_size}): ")
+        theme_input = int(input())
+
         if theme_input == 0:
             print("Exiting...")
             break
 
-        for i in range(len(theme_list)):
+        for i in range(theme_size):
             if theme_input - 1 == i:
                 theme_option = theme_list[i]
-                print(theme_list[i]["name"], " selected.")
+                print(theme_list[i]["name"], "selected.")
                 break
 
             print("Invalid theme option.")
             continue
+        
+        while True:
+            print("0. Back to main menu")
+            print("1. Apply theme")
+            print("2. Show picture")
+            apply_input = int(input())
 
-        show_picture_option = input("Show picture? (y/n): ")
-        if show_picture_option.lower() == "y":
-            show_picture(theme_option["picture_path"])
+            if (apply_input == 0):
+                print("Back to main menu.")
+                break
+
+            if (apply_input == 1):
+                read_manager.apply_theme(theme_option["file_path"])
+                print("Theme applied.")
+                continue
+
+            if (apply_input == 2):
+                print("Showing picture...")
+                show_picture(theme_option["picture_path"])
+                continue
 
 main()
