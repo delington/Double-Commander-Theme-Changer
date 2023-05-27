@@ -1,6 +1,7 @@
 import os
 import platform
 import read_manager
+import xml_manager
 
 INPUT_THEME_JSON = "themes.json"
 
@@ -57,7 +58,7 @@ def main():
                 break
 
             if (apply_input == 1):
-                read_manager.apply_theme(theme_option["file_path"])
+                xml_manager.apply_changes(theme_option["file_path"])
                 print("Theme applied.")
                 continue
 

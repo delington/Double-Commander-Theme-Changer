@@ -48,15 +48,15 @@ def add_property(root, input_file_path, section_name):
   
   add_xml_child(root, section_name, input_property)
 
-def apply_changes():
+def apply_changes(input_property_file_path):
   # Parse the existing XML
   tree = ET.parse(DOUBLE_COMMANDER_SETTING_FILE_PATH)
   root = tree.getroot()
 
-  add_property(root, INPUT_PROPERTY_FILE_PATH, STRING_COLORS)
-  add_property(root, INPUT_PROPERTY_FILE_PATH, STRING_LAYOUT)
-  add_property(root, INPUT_PROPERTY_FILE_PATH, STRING_FONTS)
-  add_property(root, INPUT_PROPERTY_FILE_PATH, STRING_ICONS)
+  add_property(root, input_property_file_path, STRING_COLORS)
+  add_property(root, input_property_file_path, STRING_LAYOUT)
+  add_property(root, input_property_file_path, STRING_FONTS)
+  add_property(root, input_property_file_path, STRING_ICONS)
 
   # Write the modified XML to a new file
   tree.write(DOUBLE_COMMANDER_SETTING_FILE_PATH)
