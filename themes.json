@@ -1,0 +1,8 @@
+[
+  {
+    "dark theme": "properties/dark_theme.xml"
+  },
+  {
+    "default theme": "properties/default_theme.xml"
+  }
+]
