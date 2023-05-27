@@ -1,8 +1,12 @@
 [
   {
-    "dark theme": "properties/dark_theme.xml"
+    "name": "Dark theme",
+    "file_path": "properties/colors/dark_theme.xml",
+    "picture_path": "properties/colors/dark_theme.png"
   },
   {
-    "default theme": "properties/default_theme.xml"
+    "name": "Default theme",
+    "file_path": "properties/colors/default_theme.xml",
+    "picture_path": "properties/colors/default_theme.png"
   }
 ]
