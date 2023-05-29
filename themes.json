@@ -23,5 +23,10 @@
     "name": "Minty fresh",
     "file_path": "themes/minty_fresh.xml",
     "picture_path": "themes/minty_fresh.png"
+  },
+  {
+    "name": "Sunlit pyramids",
+    "file_path": "themes/sunlit_pyramids.xml",
+    "picture_path": "themes/sunlit_pyramids.png"
   }
 ]
