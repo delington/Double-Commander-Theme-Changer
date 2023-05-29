@@ -4,9 +4,13 @@
 
 The Double Commander Theme Changer is a Python application that allows you to easily change the theme of the Double Commander file manager. With this app, you can select a theme from a list, preview the theme picture, and apply the selected theme to Double Commander.
 
-`Dark` <img src="themes/dark_theme.png" height="230" width="400"/> `Light` <img src="themes/light_theme.png" height="230" width="400"/>
-`Purple rain`<img src="themes/purple_rain.png" height="230" width="400"/> `Minty fresh`<img src="themes/minty_fresh.png" height="230" width="400"/>
-`Sunlit pyramids`<img src="themes/sunlit_pyramids.png" height="230" width="400"/>`Saffron sunset`<img src="themes/saffron_sunset.png" height="230" width="400"/>
+| `Dark` | `Light` |
+|-----------------|--------------------|
+| <img src="themes/dark_theme.png" height="230" width="400"/> | <img src="themes/light_theme.png" height="230" width="400"/> |
+| `Purple rain` | `Minty fresh` |
+| <img src="themes/purple_rain.png" height="230" width="400"/> | <img src="themes/minty_fresh.png" height="230" width="400"/> |
+| `Sunlit pyramids` | `Saffron sunset` |
+| <img src="themes/sunlit_pyramids.png" height="230" width="400"/> | <img src="themes/saffron_sunset.png" height="230" width="400"/> |
 
 ## Usage
 
