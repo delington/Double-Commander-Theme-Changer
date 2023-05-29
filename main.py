@@ -2,6 +2,9 @@ import os
 import platform
 import read_manager
 import xml_manager
+import folder_selector_manager
+from tkinter.filedialog import askdirectory
+from tkinter import Tk
 
 INPUT_THEME_JSON = "themes.json"
 
@@ -20,10 +23,35 @@ def show_picture(picture_path):
     else:
         print("No picture found for the selected theme.")
 
+def get_input_folder_location():
+    input_folder_location = folder_selector_manager.find_db_commander_property_file()
+
+    while True:
+        if os.path.isfile(input_folder_location):
+            print("✔️  Folder location is valid.")
+            return input_folder_location
+        else:
+            print("Invalid input folder location.")
+
+def create_root_tinkter():
+    root = Tk()
+    root.withdraw()  # Hide the root window
+
 def main():
+    create_root_tinkter()
     theme_list = read_manager.read_themes_as_list(INPUT_THEME_JSON)
 
     while True:
+        print("Please select Double Commander installation location.")
+        print("0. Exit")
+        print("1. OK")
+
+        if (input() == "0"):
+            print("Exiting...")
+            break
+        
+        db_folder_location = get_input_folder_location()
+
         print("Theme Options:")
         print("0. Exit")
 
@@ -41,7 +69,7 @@ def main():
         for i in range(theme_size):
             if theme_input - 1 == i:
                 theme_option = theme_list[i]
-                print(theme_list[i]["name"], "selected.")
+                print("✔️ ", theme_list[i]["name"], "selected.")
                 break
 
             print("Invalid theme option.")
@@ -58,9 +86,9 @@ def main():
                 break
 
             if (apply_input == 1):
-                xml_manager.apply_changes(theme_option["file_path"])
-                print("Theme applied.")
-                continue
+                xml_manager.apply_changes(db_folder_location, theme_option["file_path"])
+                print("✔️ Theme applied.")
+                break
 
             if (apply_input == 2):
                 print("Showing picture...")
