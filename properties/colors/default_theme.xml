@@ -3,9 +3,9 @@
     <UseCursorBorder>False</UseCursorBorder>
     <CursorBorderColor>-2147483635</CursorBorderColor>
     <UseFrameCursor>False</UseFrameCursor>
-    <Foreground>15263976</Foreground>
-    <Background>3552822</Background>
-    <Background2>3026478</Background2>
+    <Foreground>-2147483640</Foreground>
+    <Background>-2147483643</Background>
+    <Background2>-2147483643</Background2>
     <Cursor>-2147483635</Cursor>
     <CursorText>-2147483634</CursorText>
     <Mark>255</Mark>
@@ -15,6 +15,12 @@
     <UseInactiveSelColor>False</UseInactiveSelColor>
     <AllowOverColor>True</AllowOverColor>
     <gBorderFrameWidth>1</gBorderFrameWidth>
+    <PathLabel>
+      <ActiveColor>-2147483635</ActiveColor>
+      <ActiveFontColor>-2147483634</ActiveFontColor>
+      <InactiveColor>-2147483633</InactiveColor>
+      <InactiveFontColor>-2147483630</InactiveFontColor>
+    </PathLabel>
     <InactivePanelBrightness>100</InactivePanelBrightness>
     <FreeSpaceIndicator>
       <UseGradient>True</UseGradient>
@@ -26,20 +32,14 @@
       <Error>255</Error>
       <Success>32768</Success>
     </LogWindow>
-    <FileFilters />
-    <PathLabel>
-      <ActiveColor>-2147483635</ActiveColor>
-      <ActiveFontColor>-2147483634</ActiveFontColor>
-      <InactiveColor>-2147483633</InactiveColor>
-      <InactiveFontColor>-2147483630</InactiveFontColor>
-    </PathLabel>
+    <FileFilters/>
   </Colors>
   <Layout>
     <MainMenu>True</MainMenu>
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>24</ButtonHeight>
-      <IconSize>16</IconSize>
+      <ButtonHeight>30</ButtonHeight>
+      <IconSize>20</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -56,7 +56,7 @@
     <DriveBar1>True</DriveBar1>
     <DriveBar2>True</DriveBar2>
     <DriveBarFlat>True</DriveBarFlat>
-    <DrivesListButton Enabled="False">
+    <DrivesListButton Enabled="True">
       <ShowLabel>True</ShowLabel>
       <ShowFileSystem>True</ShowFileSystem>
       <ShowFreeSpace>True</ShowFreeSpace>
@@ -71,12 +71,12 @@
     <TermWindow>False</TermWindow>
     <KeyButtons>True</KeyButtons>
     <InterfaceFlat>True</InterfaceFlat>
-    <DriveFreeSpace>False</DriveFreeSpace>
+    <DriveFreeSpace>True</DriveFreeSpace>
     <DriveIndicator>False</DriveIndicator>
     <ProgressInMenuBar>False</ProgressInMenuBar>
     <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
     <HorizontalFilePanels>False</HorizontalFilePanels>
-    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
+    <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
     <UppercaseDriveLetter>False</UppercaseDriveLetter>
     <ShowColonAfterDrive>False</ShowColonAfterDrive>
   </Layout>
