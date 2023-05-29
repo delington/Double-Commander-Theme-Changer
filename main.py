@@ -7,6 +7,7 @@ from tkinter.filedialog import askdirectory
 from tkinter import Tk
 
 INPUT_THEME_JSON = "themes.json"
+SEPARATOR_LINE = "----------------------------------------------"
 
 def show_picture(picture_path):
     
@@ -41,6 +42,9 @@ def main():
     create_root_tinkter()
     theme_list = read_manager.read_themes_as_list(INPUT_THEME_JSON)
 
+    print(SEPARATOR_LINE)
+    print("⚠️  If you've never opened Double Commander before, please do so, and close it.\n(It creates doublecmd.xml which is essential!)")
+    print(SEPARATOR_LINE)
     print("Please select Double Commander installation location.")
     print("0. Exit")
     print("1. OK")
@@ -52,6 +56,7 @@ def main():
     db_folder_location = get_input_folder_location()
 
     while True:
+        print(SEPARATOR_LINE)
         print("Theme Options:")
         print("0. Exit")
 
@@ -59,6 +64,7 @@ def main():
             print(f"{i}. {theme['name']}")
 
         theme_size = len(theme_list)
+        print(SEPARATOR_LINE)
         print(f"Select a theme option (1-{theme_size}): ")
         theme_input = int(input())
 
@@ -76,6 +82,7 @@ def main():
             continue
         
         while True:
+            print(SEPARATOR_LINE)
             print("0. Back to main menu")
             print("1. Apply theme")
             print("2. Show picture")

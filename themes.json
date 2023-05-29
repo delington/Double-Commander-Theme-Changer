@@ -1,5 +1,10 @@
 [
   {
+    "name": "Default theme",
+    "file_path": "properties/themes/default_theme.xml",
+    "picture_path": "properties/themes/default_theme.png"
+  },
+  {
     "name": "Dark theme",
     "file_path": "properties/themes/dark_theme.xml",
     "picture_path": "properties/themes/dark_theme.png"
