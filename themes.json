@@ -10,14 +10,14 @@
     "picture_path": "themes/dark_theme.png"
   },
   {
+    "name": "Deep azure",
+    "file_path": "themes/deep_azure.xml",
+    "picture_path": "themes/deep_azure.png"
+  },
+  {
     "name": "Light theme",
     "file_path": "themes/light_theme.xml",
     "picture_path": "themes/light_theme.png"
-  },
-  {
-    "name": "Purple rain",
-    "file_path": "themes/purple_rain.xml",
-    "picture_path": "themes/purple_rain.png"
   },
   {
     "name": "Minty fresh",
@@ -25,13 +25,23 @@
     "picture_path": "themes/minty_fresh.png"
   },
   {
-    "name": "Sunlit pyramids",
-    "file_path": "themes/sunlit_pyramids.xml",
-    "picture_path": "themes/sunlit_pyramids.png"
+    "name": "Purple rain",
+    "file_path": "themes/purple_rain.xml",
+    "picture_path": "themes/purple_rain.png"
+  },
+  {
+    "name": "Ruby velvet",
+    "file_path": "themes/ruby_velvet.xml",
+    "picture_path": "themes/ruby_velvet.png"
   },
   {
     "name": "Saffron sunset",
     "file_path": "themes/saffron_sunset.xml",
     "picture_path": "themes/saffron_sunset.png"
+  },
+  {
+    "name": "Sunlit pyramids",
+    "file_path": "themes/sunlit_pyramids.xml",
+    "picture_path": "themes/sunlit_pyramids.png"
   }
 ]

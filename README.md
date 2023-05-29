@@ -11,6 +11,8 @@ The Double Commander Theme Changer is a Python application that allows you to ea
 | <img src="themes/purple_rain.png" height="230" width="400"/> | <img src="themes/minty_fresh.png" height="230" width="400"/> |
 | `Sunlit pyramids` | `Saffron sunset` |
 | <img src="themes/sunlit_pyramids.png" height="230" width="400"/> | <img src="themes/saffron_sunset.png" height="230" width="400"/> |
+| `Ruby velvet` | `Deep azure` |
+| <img src="themes/ruby_velvet.png" height="230" width="400"/> | <img src="themes/deep_azure.png" height="230" width="400"/> |
 
 ## Usage
 
