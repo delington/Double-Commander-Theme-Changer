@@ -38,6 +38,7 @@ def create_root_tinkter():
     root.withdraw()  # Hide the root window
 
 def main():
+    last_applied_theme = ""
     create_root_tinkter()
     theme_list = read_manager.read_themes_as_list(INPUT_THEME_JSON)
 
@@ -60,7 +61,11 @@ def main():
         print("0. Exit")
 
         for i, theme in enumerate(theme_list, start=1):
-            print(f"{i}. {theme['name']}")
+            list_item_name = f"{i}. {theme['name']}"
+            
+            if theme["name"] == last_applied_theme:
+                list_item_name += "⭐"
+            print(list_item_name)
 
         theme_size = len(theme_list)
         print(SEPARATOR_LINE)
@@ -92,6 +97,7 @@ def main():
                 xml_manager.apply_changes(db_folder_location, theme_option["file_path"])
                 print(SEPARATOR_LINE)
                 print(f"⭐ ⭐ ⭐ {theme_option['name']} applied. ⭐ ⭐ ⭐")
+                last_applied_theme = theme_option["name"]
                 break
 
             if (apply_input == 2):
