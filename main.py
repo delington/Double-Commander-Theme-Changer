@@ -1,8 +1,8 @@
 import os
 import platform
-import read_manager
-import xml_manager
-import folder_selector_manager
+import service.read_manager as read_manager
+import service.xml_manager as xml_manager
+import service.folder_selector_manager as folder_selector_manager
 from tkinter.filedialog import askdirectory
 from tkinter import Tk
 
@@ -77,9 +77,6 @@ def main():
                 theme_option = theme_list[i]
                 print("✔️ ", theme_list[i]["name"], "selected.")
                 break
-
-            print("Invalid theme option.")
-            continue
         
         while True:
             print(SEPARATOR_LINE)
@@ -94,7 +91,8 @@ def main():
 
             if (apply_input == 1):
                 xml_manager.apply_changes(db_folder_location, theme_option["file_path"])
-                print("✔️  Theme applied.\n")
+                print(SEPARATOR_LINE)
+                print(f"⭐ ⭐ ⭐ {theme_option['name']} applied. ⭐ ⭐ ⭐")
                 break
 
             if (apply_input == 2):

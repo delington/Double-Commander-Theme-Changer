@@ -54,4 +54,3 @@ def apply_changes(input_DC_prop_file, input_property_file_path):
 
   # Write the modified XML to a new file
   tree.write(input_DC_prop_file)
-  print("Processing changes has been completed")

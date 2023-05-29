@@ -1,17 +1,17 @@
 [
   {
     "name": "Default theme",
-    "file_path": "properties/themes/default_theme.xml",
-    "picture_path": "properties/themes/default_theme.png"
+    "file_path": "themes/default_theme.xml",
+    "picture_path": "themes/default_theme.png"
   },
   {
     "name": "Dark theme",
-    "file_path": "properties/themes/dark_theme.xml",
-    "picture_path": "properties/themes/dark_theme.png"
+    "file_path": "themes/dark_theme.xml",
+    "picture_path": "themes/dark_theme.png"
   },
   {
     "name": "Light theme",
-    "file_path": "properties/themes/light_theme.xml",
-    "picture_path": "properties/themes/light_theme.png"
+    "file_path": "themes/light_theme.xml",
+    "picture_path": "themes/light_theme.png"
   }
 ]
