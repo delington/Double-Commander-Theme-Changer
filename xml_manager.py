@@ -1,16 +1,10 @@
 import xml.etree.ElementTree as ET
 
 
-INPUT_PROPERTY_FILE_PATH = 'properties/colors/dark_theme.xml'
-DOUBLE_COMMANDER_SETTING_FILE_PATH = 'doublecmd.xml'
 STRING_COLORS = 'Colors'
 STRING_LAYOUT = 'Layout'
 STRING_FONTS = 'Fonts'
 STRING_ICONS = 'Icons'
-
-# Open the file and read its contents into a variable
-#with open(INPUT_PROPERTY_FILE_PATH, 'r') as file:
- #   icons_section = file.read()
 
 def read_prop_from_file(input_file_path, property_to_read):
   # Parse the XML file

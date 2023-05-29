@@ -40,20 +40,18 @@ def create_root_tinkter():
 def main():
     create_root_tinkter()
     theme_list = read_manager.read_themes_as_list(INPUT_THEME_JSON)
-    db_folder_location = ""
+
+    print("Please select Double Commander installation location.")
+    print("0. Exit")
+    print("1. OK")
+
+    if (input() == "0"):
+        print("Exiting...")
+        return
+
+    db_folder_location = get_input_folder_location()
 
     while True:
-        if (db_folder_location == ""):
-            print("Please select Double Commander installation location.")
-            print("0. Exit")
-            print("1. OK")
-
-            if (input() == "0"):
-                print("Exiting...")
-                break
-
-            db_folder_location = get_input_folder_location()
-
         print("Theme Options:")
         print("0. Exit")
 
