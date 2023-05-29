@@ -28,5 +28,10 @@
     "name": "Sunlit pyramids",
     "file_path": "themes/sunlit_pyramids.xml",
     "picture_path": "themes/sunlit_pyramids.png"
+  },
+  {
+    "name": "Saffron sunset",
+    "file_path": "themes/saffron_sunset.xml",
+    "picture_path": "themes/saffron_sunset.png"
   }
 ]
