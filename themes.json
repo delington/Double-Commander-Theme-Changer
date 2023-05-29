@@ -13,5 +13,15 @@
     "name": "Light theme",
     "file_path": "themes/light_theme.xml",
     "picture_path": "themes/light_theme.png"
+  },
+  {
+    "name": "Purple rain",
+    "file_path": "themes/purple_rain.xml",
+    "picture_path": "themes/purple_rain.png"
+  },
+  {
+    "name": "Minty fresh",
+    "file_path": "themes/minty_fresh.xml",
+    "picture_path": "themes/minty_fresh.png"
   }
 ]

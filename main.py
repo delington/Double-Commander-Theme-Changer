@@ -3,7 +3,6 @@ import platform
 import service.read_manager as read_manager
 import service.xml_manager as xml_manager
 import service.folder_selector_manager as folder_selector_manager
-from tkinter.filedialog import askdirectory
 from tkinter import Tk
 
 INPUT_THEME_JSON = "themes.json"
