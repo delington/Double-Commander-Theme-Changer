@@ -5,6 +5,21 @@
     "picture_path": "themes/default_theme.png"
   },
   {
+    "name": "Blue abyss",
+    "file_path": "themes/blue_abyss.xml",
+    "picture_path": "themes/blue_abyss.png"
+  },
+  {
+    "name": "Bronze delight",
+    "file_path": "themes/bronze_delight.xml",
+    "picture_path": "themes/bronze_delight.png"
+  },
+  {
+    "name": "Crimson elegance",
+    "file_path": "themes/crimson_elegance.xml",
+    "picture_path": "themes/crimson_elegance.png"
+  },
+  {
     "name": "Dark theme",
     "file_path": "themes/dark_theme.xml",
     "picture_path": "themes/dark_theme.png"
@@ -30,6 +45,11 @@
     "picture_path": "themes/purple_rain.png"
   },
   {
+    "name": "Royal purple",
+    "file_path": "themes/royal_purple.xml",
+    "picture_path": "themes/royal_purple.png"
+  },
+  {
     "name": "Ruby velvet",
     "file_path": "themes/ruby_velvet.xml",
     "picture_path": "themes/ruby_velvet.png"
@@ -40,8 +60,8 @@
     "picture_path": "themes/saffron_sunset.png"
   },
   {
-    "name": "Sunlit pyramids",
-    "file_path": "themes/sunlit_pyramids.xml",
-    "picture_path": "themes/sunlit_pyramids.png"
+    "name": "Olive branch",
+    "file_path": "themes/olive_branch.xml",
+    "picture_path": "themes/olive_branch.png"
   }
 ]

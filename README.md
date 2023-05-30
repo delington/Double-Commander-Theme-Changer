@@ -9,17 +9,21 @@ The Double Commander Theme Changer is a Python application that allows you to ea
 | <img src="themes/dark_theme.png" height="230" width="400"/> | <img src="themes/light_theme.png" height="230" width="400"/> |
 | `Purple rain` | `Minty fresh` |
 | <img src="themes/purple_rain.png" height="230" width="400"/> | <img src="themes/minty_fresh.png" height="230" width="400"/> |
-| `Sunlit pyramids` | `Saffron sunset` |
-| <img src="themes/sunlit_pyramids.png" height="230" width="400"/> | <img src="themes/saffron_sunset.png" height="230" width="400"/> |
+| `Olive branch` | `Saffron sunset` |
+| <img src="themes/olive_branch.png" height="230" width="400"/> | <img src="themes/saffron_sunset.png" height="230" width="400"/> |
 | `Ruby velvet` | `Deep azure` |
 | <img src="themes/ruby_velvet.png" height="230" width="400"/> | <img src="themes/deep_azure.png" height="230" width="400"/> |
+| `Crimson elegance` | `Blue abyss` |
+| <img src="themes/crimson_elegance.png" height="230" width="400"/> | <img src="themes/blue_abyss.png" height="230" width="400"/> |
+| `Royal purple` | `Bronze delight` |
+| <img src="themes/royal_purple.png" height="230" width="400"/> | <img src="themes/bronze_delight.png" height="230" width="400"/> |
 
 ## Usage
 
     1. Launch the Double Commander Theme Changer by running the following command:
 
 ```javascript
-python main.py
+python main.py (made with python3 version 3.11.3)
 ```
 
     2. The app will display a menu with theme options. It will look like this:

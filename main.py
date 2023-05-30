@@ -64,7 +64,7 @@ def main():
             list_item_name = f"{i}. {theme['name']}"
             
             if theme["name"] == last_applied_theme:
-                list_item_name += "⭐"
+                list_item_name += "⭐*"
             print(list_item_name)
 
         theme_size = len(theme_list)
@@ -79,7 +79,7 @@ def main():
         for i in range(theme_size):
             if theme_input - 1 == i:
                 theme_option = theme_list[i]
-                print("✔️ ", theme_list[i]["name"], "selected.")
+                print("✔️ *", theme_list[i]["name"], "selected.")
                 break
         
         while True:
@@ -96,7 +96,7 @@ def main():
             if (apply_input == 1):
                 xml_manager.apply_changes(db_folder_location, theme_option["file_path"])
                 print(SEPARATOR_LINE)
-                print(f"⭐ ⭐ ⭐ {theme_option['name']} applied. ⭐ ⭐ ⭐")
+                print(f"*** {theme_option['name']} applied. ***")
                 last_applied_theme = theme_option["name"]
                 break
 
