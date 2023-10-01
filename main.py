@@ -73,10 +73,11 @@ def main():
         for theme in theme_list:
             themes_listbox.insert("end", theme["name"])
 
+    messagebox.showinfo("Installation folder", "Please select Double Commander installation folder");
     db_folder_location = get_input_folder_location()
 
     # Theme List
-    themes_listbox = Listbox(root, selectmode="SINGLE", height=10)
+    themes_listbox = Listbox(root, selectmode="SINGLE", height=10, width=50)
     themes_listbox.grid(row=0, column=0, padx=10, pady=10)
     refresh_theme_list()
 
