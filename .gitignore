@@ -1,3 +1,7 @@
 /.idea
 /alma.py
-/__pycache__
+/service/
+/__pycache__/
+/build/
+/dist/
+main.spec
