@@ -26,13 +26,33 @@ The Double Commander Theme Changer is a Python application that allows you to ea
 
 ## Usage
 
-    1. Launch the Double Commander Theme Changer by running the following command:
+Use one of the [Releases](https://github.com/delington/Double-Commander-Theme-Changer/releases) (only Windows) or install as a `python app`:
 
-```javascript
-python main.py (made with python3 version 3.11.3)
-```
+1. Clone or download this repository to your local machine.
 
-    2. The app will display a menu with theme options. It will look like this:
+    ```bash
+    git clone https://github.com/delington/Double-Commander-Theme-Changer.git
+    ```
+
+2. Navigate to the project directory.
+
+   ```bash
+   cd Double-Commander-Theme-Changer
+   ```
+
+3. Install dependencies
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Launch the Double Commander Theme Changer by running the following command:
+
+    ```javascript
+    python main.py (made with python3 version 3.11.3, also tested with python 3.10.5)
+    ```
+
+### Previous (console) usage:
 
 ```
 Theme Options:
